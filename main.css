@@ -1,0 +1,466 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #053075;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #4273C1;
+}
+
+.active {
+    background-color: #053075;
+}
+li {
+    border-right: 1px solid #053075;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+
+#wrapper {
+     width: 960px;
+     margin-left: auto;
+     margin-right: auto;
+	
+}
+#banner {
+   clear: both;	
+   background-image: url("img/RolexWeb.jpg");
+   height: 511px;
+   background-size: cover;
+   width: 1003px;
+   background-repeat: no-repeat;
+   
+
+   
+}
+
+
+#header {
+   background-color:#053075;
+   height: 60px;
+   line-height: 27px;
+   width: 1003px;
+   
+   
+}
+#menu {
+  background-color: #053075;
+   width: 250px;
+   height: 60px;
+   float: right;
+   padding-left: 0px;
+   font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+   
+
+}
+#menu a {
+   color: #031B42;	
+   height: 40px;
+
+}
+
+#logo {
+   background-color: #053075;
+   width: 367px;
+   float: left;
+   
+}
+
+
+#feature1, #feature2, #feature3 {
+   float: left;
+   width: 315px;
+   text-align: left;
+   font-family: Playfair Display;
+   font-size: 15px;
+   line-height: 27px;
+   color: #30538C;
+   padding-bottom: 50px;
+   padding-left: 18px;
+   padding-top: 50px;
+ 
+
+}
+#feature1 button {
+	width: 200px;
+	height: 60px;
+    background-color: #053075;
+    color: #031B42;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+}
+#feature2 button {
+	width: 200px;
+	height: 60px;
+	background-color: #053075;
+    color: #031B42;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+}
+#feature3 button {
+	width: 200px;
+	height: 60px;
+	background-color: #053075;
+    color: #031B42;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+   
+}
+
+#footer a {
+	color: #031B42;
+	background-color: #053075;
+    font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+   
+   
+   
+}
+
+
+
+#footer {
+   background-color: #053075;
+   clear: both;
+   text-align: center;
+   width: 1003px;
+   color: #031B42;
+   font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+   
+   
+}
+
+/*Content page css*/
+#newwatch {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	text-align: left;
+	width: 1000px;
+	clear: both;
+	border-style: solid;
+	border-top-color: white;
+	border-right-color: white;
+	border-left-color:white;
+	border-bottom-color:white;
+	font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+   color: #031B42;
+}
+#newwatch p {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	text-align: left;
+	width: 1000px;
+	clear: both;
+	border-style: solid;
+	border-top-color: white;
+	border-right-color: white;
+	border-left-color:white;
+	border-bottom-color:white;
+	font-family: Playfair Display;
+   font-size: 15px;
+   line-height: 27px;
+   color: #30538C;
+}
+
+#collection {
+   clear: both;	
+   background-image: url("img/Capture1.jpg");
+   height: 300px;
+   background-size: cover;
+   width: 100%;
+   background-repeat: no-repeat;
+   
+}
+#collection2 {
+   clear: both;	
+   background-image: url("img/Capture2.jpg");
+   height: 300px;
+   background-size: cover;
+   width: 100%;
+   background-repeat: no-repeat;
+
+   
+}
+#collection3 {
+   clear: both;	
+   background-image: url("img/Capture3.jpg");
+   height: 300px;
+   background-size: cover;
+   width: 100%;
+   background-repeat: no-repeat;
+   
+}
+#text p, p1, p2{
+	display: inline;
+	font-family: Playfair Display;
+   font-size: 15px;
+   line-height: 27px;
+   color: #30538C;
+
+
+}
+#text p1 {
+	padding-left: 210px;
+}
+#text p2 {
+	padding-left: 280px;
+} 
+
+#text2 p, p1, p2{
+	display: inline;
+	font-family: Playfair Display;
+   font-size: 15px;
+   line-height: 27px;
+   color: #30538C;
+
+}
+#text2 p1 {
+	padding-left: 230px;
+}
+#text2 p2 {
+	padding-left: 230px;
+} 
+
+#text3 p, p1, p2{
+	display: inline;
+	font-family: Playfair Display;
+   font-size: 15px;
+   line-height: 27px;
+   color: #30538C;
+
+}
+#text3 p1 {
+	padding-left: 260px;
+}
+#text3 p2 {
+	padding-left: 290px;
+} 
+
+#wrapper {
+     width: 960px;
+     margin-left: auto;
+     margin-right: auto;
+	
+}
+#header {
+   background-color:#053075;
+   height: 60px;
+   line-height: 27px;
+   width: 1003px;
+}
+#history {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	text-align: left;
+	width: 1000px;
+	clear: both;
+	border-style: solid;
+	border-top-color: white;
+	border-right-color: white;
+	border-left-color:white;
+	border-bottom-color:white;
+	font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+   color: #031B42;
+}
+#history p {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	text-align: left;
+	width: 1000px;
+	clear: both;
+	border-style: solid;
+	border-top-color: white;
+	border-right-color: white;
+	border-left-color:white;
+	border-bottom-color:white;
+	font-family: Playfair Display;
+   font-size: 15px;
+   line-height: 27px;
+   color: #30538C;
+}
+
+
+
+
+#footer a {
+	color: #031B42;
+	background-color: #053075;
+    font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+   
+   
+   
+}
+
+
+
+#footer {
+   background-color: #053075;
+   clear: both;
+   text-align: center;
+   width: 1003px;
+   color: #031B42;
+   font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+   
+}
+
+
+/*Contact Us page*/
+#cont {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	text-align: center;
+	width: 1000px;
+	clear: both;
+	border-style: solid;
+	border-top-color: white;
+	border-right-color: white;
+	border-left-color:white;
+	border-bottom-color:white;
+	font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+   color: #031B42;
+   padding-top: 50px;
+   
+}
+#form {
+	padding-top: 100px;
+	padding-left: 350px;
+}
+#form label {
+	padding-left: 0px; 
+    font-family: Playfair Display;
+   font-size: 15px;
+   line-height: 27px;
+   color: #30538C;   
+}
+#form input[type=text], select {
+    width: 300px;
+    padding: 12px 20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+	
+}
+
+#form input[type=submit] {
+    width: 100px;
+    background-color: #053075;
+    color: #031B42;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	padding-left: 20px;
+	font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+}
+#form input[type=messg] {
+	width: 300px;
+    padding: 45px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	
+}
+
+#input[type=submit]:hover {
+    background-color: #053075;
+}
+#wrapper {
+     width: 960px;
+     margin-left: auto;
+     margin-right: auto;
+	
+}
+#header {
+   background-color:#053075;
+   height: 60px;
+   line-height: 27px;
+   width: 1003px;
+}
+
+
+
+
+
+#footer a {
+	color: #031B42;
+	background-color: #053075;
+    font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+   
+   
+   
+}
+
+
+
+#footer {
+   background-color: #053075;
+   clear: both;
+   text-align: center;
+   width: 1003px;
+   color: #031B42;
+   font-family: Paytone One;
+   font-size: 15px;
+   line-height: 27px;
+   
+}
