@@ -207,7 +207,7 @@ li:last-child {
 
 #collection {
    clear: both;	
-   background-image: url("img/Capture1.jpg");
+   background-image: url("img/one.jpg");
    height: 300px;
    background-size: cover;
    width: 100%;
@@ -216,7 +216,7 @@ li:last-child {
 }
 #collection2 {
    clear: both;	
-   background-image: url("img/Capture2.jpg");
+   background-image: url("img/two.jpg");
    height: 300px;
    background-size: cover;
    width: 100%;
@@ -226,7 +226,7 @@ li:last-child {
 }
 #collection3 {
    clear: both;	
-   background-image: url("img/Capture3.jpg");
+   background-image: url("img/three.jpg");
    height: 300px;
    background-size: cover;
    width: 100%;
