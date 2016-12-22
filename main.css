@@ -207,7 +207,7 @@ li:last-child {
 
 #collection {
    clear: both;	
-   background-image: url("img/one.JPG");
+   background-image: url("https://web.njit.edu/~rbp54/img/one.JPG");
    height: 300px;
    background-size: cover;
    width: 100%;
@@ -216,7 +216,7 @@ li:last-child {
 }
 #collection2 {
    clear: both;	
-   background-image: url("img/two.JPG");
+   background-image: url("https://web.njit.edu/~rbp54/img/two.JPG");
    height: 300px;
    background-size: cover;
    width: 100%;
@@ -226,7 +226,7 @@ li:last-child {
 }
 #collection3 {
    clear: both;	
-   background-image: url("img/three.JPG");
+   background-image: url("https://web.njit.edu/~rbp54/img//three.JPG");
    height: 300px;
    background-size: cover;
    width: 100%;
